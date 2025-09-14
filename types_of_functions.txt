@@ -1,0 +1,22 @@
+functions are mainly 4 types (Based on the arguments and return)
+----------------------------------------------------------------
+
+1. With out argument and with out return
+   function main() {
+   
+   }
+
+2. With argument and with out return
+   function main(arg1, arg2) {
+   
+   }
+
+3. With out argument and with return
+   function main() {
+      return "This is op"
+   }
+
+4. With argument and with return
+   function main(arg1, arg2) {
+      *return arg1 \* arg2*
+   }

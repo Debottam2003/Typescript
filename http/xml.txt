@@ -1,0 +1,15 @@
+<root>
+  <id>1</id>
+  <genre>Action</genre>
+  <title>Iron Man</title>
+  <director>Jon Favreau</director>
+</root>
+
+{
+  "id": "1",
+  "genre": "Action",
+  "title": "Iron Man",
+  "director": "Jon Favreau"
+}
+
+XML is more verbose than JSON.

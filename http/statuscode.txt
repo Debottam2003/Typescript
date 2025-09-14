@@ -1,0 +1,10 @@
+200 - OK
+201 - Created
+
+301 - Moved permanently
+
+400 - Bad request
+403 - unauthorized
+404 - Not Found
+
+500 - Internal Server Error
