@@ -1,0 +1,12 @@
+import AnySTR from "utils"
+
+import {a as x, b as y} from "utils"
+
+import * as X from "utils" = bundle everything into an object.
+
+import { ... } from "utils" = pull out only the exports you need.
+
+X = {
+  default: [Function: log],
+  sum: [Function: sum]
+}
