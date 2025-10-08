@@ -10,10 +10,11 @@ interface UserDetails {
 }
 
 // Create the context with a default value
-export const userContext = createContext<UserDetails>({
-  username: "Debottam",
-  active: false,
-});
+export const userContext: React.Context<UserDetails> =
+  createContext<UserDetails>({
+    username: "Debottam",
+    active: false,
+  });
 
 interface propType {
   children: ReactNode;
