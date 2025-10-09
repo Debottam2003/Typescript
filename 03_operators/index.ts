@@ -18,9 +18,9 @@ console.log("Final value of a:", a);
 //? Comparison Operators
 let x: number = 10;
 let y: number = 20;
-console.log("x == y:", x == y);
+console.log("x == y:", x == y);// compares only value
 console.log("x != y:", x != y);
-console.log("x === y:", x === y);
+console.log("x === y:", x === y);// strict comparison compares both data type and value
 console.log("x !== y:", x !== y);
 console.log("x > y:", x > y);
 console.log("x < y:", x < y);
