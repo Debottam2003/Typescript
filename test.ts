@@ -7,3 +7,4 @@ let func: () => void = () => {
 };
 func();
 func();
+console.log(Date.now(),new Date().toLocaleString());
