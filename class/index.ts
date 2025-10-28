@@ -1,16 +1,18 @@
 console.log("Hello via Bun!");
+
 function returnClass(className: string) {
-    return class className {
-        greet() {
-            return "Hello from MyClass!";
-        }
+  return class {
+    greet() {
+      return "Hello from bun!";
     }
+  };
 }
-let Users = returnClass("users");
-console.log(Users);
-console.log(typeof Users);
-console.log(new Users());
-console.log(new Users().greet());
+
+let Users = returnClass("Users");
+console.log(Users); // [class]
+console.log(typeof Users); // function
+console.log(new Users()); // Users {}
+console.log(new Users().greet()); // Hello from Users!
 console.log(returnClass);
 
 export default returnClass;
