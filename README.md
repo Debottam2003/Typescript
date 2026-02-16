@@ -35,7 +35,8 @@ This project includes folders and files that demonstrate various TypeScript conc
 
 To experiment with the code locally you need:
 
-- **Node.js** (recommended v16 or higher)
-- **TypeScript CLI** installed globally:
+- **Node.js** (recommended v24 or higher)
+- **TypeScript CLI** installed globally or locally:
   ```bash
   npm install -g typescript
+  npm install typescript
