@@ -1,4 +1,4 @@
-//? Utils on array
+// Utils on array
 let filledArr: number[] = new Array(5).fill(0);
 console.log(filledArr); // [0, 0, 0, 0, 0]
 
@@ -55,7 +55,7 @@ console.log(hasEven); // true (because 2 and 4 are even)
 let allPositive = arr.every(val => val > 0);
 console.log(allPositive); // true
 
-//? Utils on Object
+// Utils on Object
 let user: { id: number, name: string } = {
     id: 1,
     name: "debottam"
@@ -65,8 +65,7 @@ console.log(Object.keys(user));
 console.log(Object.values(user));
 console.log(Object.entries(user));
 
-//? Utils on String
-//? Utils on String
+// Utils on String
 let greeting: string = '  Hello, World!  ';
 console.log(greeting.length); // 16 (includes leading/trailing spaces)
 console.log(greeting.trim()); // "Hello, World!"

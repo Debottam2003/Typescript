@@ -1,6 +1,6 @@
 let { log: print } = console;
 
-//? Primitive data types in TypeScript
+// Primitive data types in TypeScript
 let name: string = "Debottam Kar"; // string data type
 let age: number = 25; // number data type
 let isStudent: boolean = true; // boolean data type
@@ -28,9 +28,9 @@ let notNull: string = name!; // assert name is not null
 // Compiler is happy because you promised notNull is not null
 print(typeof notNull, notNull); // string Debottam Kar
 
-//? Non-primitive or reference data types in TypeScript
+// Non-primitive or reference data types in TypeScript
 
-//? Array
+// Array
 let hobbies: string[] = ["Reading", "Traveling", "Gaming"];
 let scores: Array<number> = [95, 88, 76];
 let mixedArray: (string | number)[] = ["Alice", 30, "Bob", 25];
@@ -40,17 +40,17 @@ let arr_of_arr: number[][] = [
 ];
 let anyArr: any[] = [1, "Two", true, null, undefined, { key: "value" }];
 
-//? Object
+// Object
 let person: { name: string; age: number } = { name: "Alice", age: 30 };
 
-//? Tuple
+// Tuple
 let tuple: [string, number] = ["Alice", 30];
 const point: readonly [number, number] = [10, 20];
 
 let unionType: string | number = "Hello";
 unionType = 42; // Valid
 
-//? Type
+// Type
 type Person = {
   name: string;
   age: number;
@@ -71,7 +71,7 @@ let matrix: Integer[][] = [
   [4, 5, 6],
 ];
 
-//? Interface
+// Interface
 interface Car {
   make: string;
   model: string;

@@ -1,4 +1,4 @@
-//? Conditional Statements in TypeScript
+// Conditional Statements in TypeScript
 if (10 > 5) {
     console.log("10 is greater than 5");
 } else if (10 < 5) {
@@ -7,11 +7,11 @@ if (10 > 5) {
     console.log("10 is equal to 5");
 }
 
-//? Ternary Operator
+// Ternary Operator
 let age: number = 22 > 20 ? 22 : 20;
 console.log(`Age is: ${age}`);
 
-//? Switch Statement
+// Switch Statement
 let day: string = "Monday";
 
 switch (day) {

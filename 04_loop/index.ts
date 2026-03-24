@@ -1,4 +1,4 @@
-//? While loop
+// While loop
 
 let i: number = 0;
 while (i < 5) {
@@ -6,7 +6,7 @@ while (i < 5) {
     i++;
 }
 
-//? Do-while loop
+// Do-while loop
 
 let j: number = 0;
 do {
@@ -14,14 +14,14 @@ do {
     j++;
 } while (j < 5);
 
-//? For loop
+// For loop
 for (let k: number = 0; k < 5; k++) {
     console.log(k);// 0 1 2 3 4
 }
 
 let arr: number[] = [10, 20, 30, 40, 50];
 
-//? For-in loop
+// For-in loop
 for (let index in arr) {
     console.log(index);// 0 1 2 3 4
 }
@@ -29,12 +29,12 @@ for (let index in arr) {
     console.log(arr[index]);// 10 20 30 40 50
 }
 
-//? For-of loop
+// For-of loop
 for (let value of arr) {
     console.log(value);// 10 20 30 40 50
 }
 
-//? Break and Continue
+// Break and Continue
 for (let m: number = 0; m < 10; m++) {
     if (m === 5) {
         break; // exit the loop when m is 5
@@ -49,12 +49,12 @@ for (let n: number = 0; n < 10; n++) {
     console.log(n); // 1 3 5 7 9
 }
 
-//? forEach loop/method
+// forEach loop/method
 arr.forEach((val) => {
     console.log(val); // 10 20 30 40 50
 });
 
-//? Map, Filter, Reduce, find, some, every
+// Map, Filter, Reduce, find, some, every
 let squaredArr = arr.map((val) => val * val);
 console.log(squaredArr); // [100, 400, 900, 1600, 2500]
 
