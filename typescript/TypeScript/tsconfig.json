@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",  // Compile to the latest JavaScript
+    "module": "ESNext",  // Use ES Modules
+    "strict": true,       // Enable strict mode
+    "outDir": "./dist",   // Output directory
+    "rootDir": "./src",   // Source directory
+    "sourceMap": true,    // Enable source maps for debugging
+    "moduleResolution": "Node",
+    "esModuleInterop": true
+  }
+}

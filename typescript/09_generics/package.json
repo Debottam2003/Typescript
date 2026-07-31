@@ -1,0 +1,15 @@
+{
+  "name": "09_generics",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "chatujs": "^1.2.3"
+  }
+}
